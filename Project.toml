@@ -1,0 +1,7 @@
+name = "TextBlockExtractor"
+uuid = "b9df02c7-ffe0-4b04-a274-479c92ee04ed"
+authors = ["Joonas Miettinen <joonas.miettinen@cancer.fi>"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
