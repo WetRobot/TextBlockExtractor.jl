@@ -5,6 +5,6 @@ module TextBlockExtractor
 
     extract_text_blocks = ExtractTextBlocks.extract_text_blocks
 
-    #export extract_text_blocks
+    precompile(extract_text_blocks, (String, ))
 
 end
