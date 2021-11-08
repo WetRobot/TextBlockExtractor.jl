@@ -1,6 +1,0 @@
-first_line_no,last_line_no,key,block
-16,21,codedoc_insert_comment_blocks_details,"["""", ""- lines with insert keys are detected using regex"", ""\""\${codedoc_insert_comment_block_regex()}\"""", """"]"
-25,32,codedoc_insert_comment_blocks_details,"["""", ""- all lines are passed through a maximum of ten times. this means"", ""that a recursion depth of ten is the maximum. recursion can occur"", ""if a comment block is inserted which in turn has one or more"", ""insert keys."", """"]"
-39,44,codedoc_insert_comment_blocks_details,"["""", ""- insert keys are collected by removing the regex given above,"", ""anything preceding it, and all whitespaces after it"", """"]"
-58,65,codedoc_insert_comment_blocks_details,"["""", ""- each line with an insert key is effectively replaced with"", ""all lines in the comment block of that key (e.g. line with key"", ""\""my_key\"" is replaced with all lines in comment block with key"", ""\""my_key\""). this is run separately for each detected insert key."", """"]"
-81,86,codedoc_insert_comment_blocks_details,"["""", ""- the result is still a character vector, but here the insert keys"", ""have been replaced with lines from the comment blocks under those keys"", """"]"
